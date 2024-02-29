@@ -35,7 +35,7 @@ const crearProducto = () => {
     precioInput.value = '';
 
     alert('Producto creado con éxito!');
-    console.log(listaProductos);
+    actualizarProductosEnFactura();
 
     return nuevoProducto;
 }

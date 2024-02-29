@@ -38,6 +38,7 @@ const crearCliente=()=>{
     emailInput.value='';
 
     alert('Cliente creado con éxito!');
+    actualizarClientesEnFactura();
     
     return nuevoCliente;
 
@@ -64,6 +65,8 @@ const mostrarListado=()=>{
 
     listadoClientes.innerHTML='';
     listadoClientes.appendChild(ul);
+    listadoClientes.style.overflow = 'auto';
+    listadoClientes.style.maxHeight = '300px';
 
 
 
