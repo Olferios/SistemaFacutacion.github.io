@@ -35,7 +35,7 @@ const crearProducto = () => {
     precioInput.value = '';
 
     alert('Producto creado con éxito!');
-    actualizarProductosEnFactura();
+    actualizarProductosEnFacturas();
 
     return nuevoProducto;
 }
@@ -71,3 +71,4 @@ const volverFormulario1 = () => {
     listadoProductos.style.display = 'none';
     productosForm.style.display = 'block';
 }
+

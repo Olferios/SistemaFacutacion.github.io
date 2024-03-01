@@ -1,13 +1,13 @@
 const listaFacturas=[];
 
-const actulizarClientesEnFacturas=()=>{
+const actualizarClientesEnFacturas=()=>{
     const clienteSelect=document.getElementById('clienteFactura');
     clienteSelect.innerHTML='';
     const opcionesClientes=generarOptionsClientes();
     clienteSelect.innerHTML=opcionesClientes;
 }
 
-const actulizarProductosEnFacturas=()=>{
+const actualizarProductosEnFacturas=()=>{
     const productosSelect=document.getElementById('productosFactura');
     productosSelect.innerHTML='';
     const opcionesProductos=generarOptionsProductos();

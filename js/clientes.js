@@ -3,7 +3,7 @@ faker.locale='es';
 const cargarClientes=()=>{
     for (let i=0;i<=10;i++){
         const nuevoCliente={
-            id:i+1,
+            id:i,
             nombre:faker.name.findName(),
             edad:Math.floor(Math.random()*30)+18,
             email: faker.internet.email()
@@ -38,7 +38,7 @@ const crearCliente=()=>{
     emailInput.value='';
 
     alert('Cliente creado con éxito!');
-    actualizarClientesEnFactura();
+    actualizarClientesEnFacturas();
     
     return nuevoCliente;
 
